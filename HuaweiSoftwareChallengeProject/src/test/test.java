@@ -18,7 +18,7 @@ public class test {
         for (int i = 0; i < 280000; i++) {
             list.add(i);
         }
-        //用时29秒
+        //用时29ms
     }
     @Test
     public void testArrayListTime02(){
@@ -27,6 +27,6 @@ public class test {
         for (int i = 0; i < 280000; i++) {
             list.add(i);
         }
-        //用时17秒
+        //用时17ms
     }
 }
